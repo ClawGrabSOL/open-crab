@@ -72,7 +72,7 @@ export default function Home() {
           <div style={{ display: "flex", alignItems: "center", gap: 10 }}>
             <Image src="/logo.png" alt="OpenKrab" width={32} height={32} style={{ borderRadius: 6 }} />
             <span style={{ fontWeight: 700, fontSize: 17, letterSpacing: "-0.02em" }}>
-              Open<span className="red">Crab</span>
+              Open<span className="red">Krab</span>
             </span>
           </div>
           <div style={{ display: "flex", alignItems: "center", gap: 8 }}>
@@ -144,7 +144,7 @@ export default function Home() {
               ✓  WhatsApp connected
             </div>
             <div style={{ color: "#888", marginTop: 4 }}>
-              <span style={{ color: "#e8e8e0" }}>Crab</span> is ready. Say hello from your phone.
+              <span style={{ color: "#e8e8e0" }}>Krab</span> is ready. Say hello from your phone.
             </div>
             <div style={{ marginTop: 8 }}><span style={{ color: "#555" }}>PS C:\Users\You&gt;</span> <span className="cursor" /></div>
           </div>
@@ -364,7 +364,7 @@ export default function Home() {
         <div style={{ display: "flex", alignItems: "center", gap: 10 }}>
           <Image src="/logo.png" alt="OpenKrab" width={28} height={28} style={{ borderRadius: 5, opacity: 0.8 }} />
           <span style={{ fontWeight: 700, fontSize: 15, letterSpacing: "-0.01em" }}>
-            Open<span className="red">Crab</span>
+            Open<span className="red">Krab</span>
           </span>
         </div>
         <div style={{ display: "flex", gap: 24, fontSize: 13, color: "#555" }}>
