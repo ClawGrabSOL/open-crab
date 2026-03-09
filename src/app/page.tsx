@@ -26,17 +26,17 @@ const FEATURES = [
   {
     icon: "🧠",
     title: "Persistent Memory",
-    desc: "OpenCrab remembers everything you tell it — across sessions, across days. It builds a mental model of you that deepens over time.",
+    desc: "OpenKrab remembers everything you tell it — across sessions, across days. It builds a mental model of you that deepens over time.",
   },
   {
     icon: "💓",
     title: "Heartbeat Proactivity",
-    desc: "Doesn't just wait to be asked. OpenCrab checks in, handles background tasks, monitors inboxes, and reaches out when something matters.",
+    desc: "Doesn't just wait to be asked. OpenKrab checks in, handles background tasks, monitors inboxes, and reaches out when something matters.",
   },
   {
     icon: "🧩",
     title: "Extensible Skills",
-    desc: "Drop a SKILL.md into the skills folder and OpenCrab learns a new capability immediately. Community-built. Open source. Yours to modify.",
+    desc: "Drop a SKILL.md into the skills folder and OpenKrab learns a new capability immediately. Community-built. Open source. Yours to modify.",
   },
   {
     icon: "💬",
@@ -46,7 +46,7 @@ const FEATURES = [
   {
     icon: "🖥️",
     title: "Runs on Your Windows PC",
-    desc: "OpenCrab lives on your Windows x64 machine. Your data never leaves your box. No cloud dependency, no subscription lock-in.",
+    desc: "OpenKrab lives on your Windows x64 machine. Your data never leaves your box. No cloud dependency, no subscription lock-in.",
   },
   {
     icon: "🤖",
@@ -70,13 +70,13 @@ export default function Home() {
       <nav>
         <div style={{ maxWidth: 1120, margin: "0 auto", padding: "0 24px", height: 60, display: "flex", alignItems: "center", justifyContent: "space-between" }}>
           <div style={{ display: "flex", alignItems: "center", gap: 10 }}>
-            <Image src="/logo.png" alt="OpenCrab" width={32} height={32} style={{ borderRadius: 6 }} />
+            <Image src="/logo.png" alt="OpenKrab" width={32} height={32} style={{ borderRadius: 6 }} />
             <span style={{ fontWeight: 700, fontSize: 17, letterSpacing: "-0.02em" }}>
               Open<span className="red">Crab</span>
             </span>
           </div>
           <div style={{ display: "flex", alignItems: "center", gap: 8 }}>
-            <a href="https://github.com/opencrab" target="_blank" rel="noopener noreferrer" className="btn-ghost" style={{ padding: "8px 16px", fontSize: 13 }}>
+            <a href="https://github.com/OpenKrab" target="_blank" rel="noopener noreferrer" className="btn-ghost" style={{ padding: "8px 16px", fontSize: 13 }}>
               <Github size={15} /> GitHub
             </a>
             <a href="#install" className="btn-primary" style={{ padding: "8px 18px", fontSize: 13 }}>
@@ -109,9 +109,9 @@ export default function Home() {
 
           <div style={{ display: "flex", justifyContent: "center", gap: 12, flexWrap: "wrap" }}>
             <a href="#install" className="btn-primary">
-              Install OpenCrab
+              Install OpenKrab
             </a>
-            <a href="https://github.com/opencrab" target="_blank" rel="noopener noreferrer" className="btn-ghost">
+            <a href="https://github.com/OpenKrab" target="_blank" rel="noopener noreferrer" className="btn-ghost">
               <Github size={16} /> View on GitHub
             </a>
           </div>
@@ -126,13 +126,13 @@ export default function Home() {
             <span style={{ marginLeft: 8, fontSize: 12, color: "#555" }}>Windows PowerShell</span>
           </div>
           <div className="terminal-body">
-            <div><span style={{ color: "#555" }}>PS C:\Users\You&gt;</span> <span className="cmd-ps">npm</span> <span className="cmd-str">install</span> <span className="cmd-kw">-g opencrab</span></div>
+            <div><span style={{ color: "#555" }}>PS C:\Users\You&gt;</span> <span className="cmd-ps">npm</span> <span className="cmd-str">install</span> <span className="cmd-kw">-g OpenKrab</span></div>
             <div style={{ color: "#6a9955", marginTop: 4 }}>
               added 312 packages in 8s
             </div>
-            <div style={{ marginTop: 8 }}><span style={{ color: "#555" }}>PS C:\Users\You&gt;</span> <span className="cmd-ps">opencrab</span> <span className="cmd-str">start</span></div>
+            <div style={{ marginTop: 8 }}><span style={{ color: "#555" }}>PS C:\Users\You&gt;</span> <span className="cmd-ps">OpenKrab</span> <span className="cmd-str">start</span></div>
             <div style={{ color: "#888", marginTop: 4 }}>
-              🦀  OpenCrab v1.0.0 starting...
+              🦀  OpenKrab v1.0.0 starting...
             </div>
             <div style={{ color: "#6a9955" }}>
               ✓  Gateway listening on :3000
@@ -164,11 +164,11 @@ export default function Home() {
               A smart agent with eyes and hands on your Windows PC.
             </h2>
             <p style={{ color: "#888", fontSize: 16, lineHeight: 1.7, marginBottom: 24 }}>
-              You message OpenCrab like a coworker. It can do anything a person could do sitting at your Windows machine —
+              You message OpenKrab like a coworker. It can do anything a person could do sitting at your Windows machine —
               run CMD or PowerShell commands, manage files, browse the web, send emails, check your calendar, talk to APIs.
             </p>
             <p style={{ color: "#888", fontSize: 16, lineHeight: 1.7 }}>
-              OpenCrab lives on <strong style={{ color: "#e8e8e0" }}>your machine</strong>. No cloud. No SaaS fees. No data leaving your box. 
+              OpenKrab lives on <strong style={{ color: "#e8e8e0" }}>your machine</strong>. No cloud. No SaaS fees. No data leaving your box. 
               Your context, your skills, your rules.
             </p>
           </div>
@@ -188,7 +188,7 @@ export default function Home() {
                 <span style={{ fontSize: 11, color: "#555" }}>9:41 AM</span>
                 <div style={{ display: "flex", alignItems: "center", gap: 6 }}>
                   <Image src="/logo.png" alt="" width={16} height={16} style={{ borderRadius: 3, opacity: 0.9 }} />
-                  <span style={{ fontSize: 12, fontWeight: 600, color: "#e8e8e0" }}>OpenCrab</span>
+                  <span style={{ fontSize: 12, fontWeight: 600, color: "#e8e8e0" }}>OpenKrab</span>
                 </div>
                 <span style={{ fontSize: 11, color: "#555" }}>100%</span>
               </div>
@@ -203,7 +203,7 @@ export default function Home() {
               {/* input bar */}
               <div style={{ padding: "10px 14px 14px", borderTop: "1px solid #1a1a1a", display: "flex", gap: 8, alignItems: "center" }}>
                 <div style={{ flex: 1, background: "#1a1a1a", borderRadius: 20, padding: "8px 14px", fontSize: 13, color: "#555", border: "1px solid #252525" }}>
-                  Message OpenCrab...
+                  Message OpenKrab...
                 </div>
                 <div style={{ width: 32, height: 32, background: "var(--red)", borderRadius: "50%", display: "flex", alignItems: "center", justifyContent: "center", flexShrink: 0 }}>
                   <span style={{ color: "#fff", fontSize: 14 }}>↑</span>
@@ -256,11 +256,11 @@ export default function Home() {
                 <span style={{ marginLeft: 8, fontSize: 12, color: "#555" }}>Command Prompt</span>
               </div>
               <div className="terminal-body" style={{ fontSize: 12 }}>
-                <div><span style={{ color: "#555" }}>C:\Users\You&gt;</span> <span className="cmd-cmd">opencrab</span> <span className="cmd-str">skill install</span> <span className="cmd-kw">gmail</span></div>
+                <div><span style={{ color: "#555" }}>C:\Users\You&gt;</span> <span className="cmd-cmd">OpenKrab</span> <span className="cmd-str">skill install</span> <span className="cmd-kw">gmail</span></div>
                 <div className="cmd-out">✓  Skill installed: gmail</div>
                 <div className="cmd-out">✓  Scopes: read, send, labels</div>
-                <div style={{ marginTop: 6 }}><span style={{ color: "#555" }}>C:\Users\You&gt;</span> <span className="cmd-cmd">opencrab</span> <span className="cmd-str">status</span></div>
-                <div className="cmd-out">OpenCrab v1.0.0 · Windows x64</div>
+                <div style={{ marginTop: 6 }}><span style={{ color: "#555" }}>C:\Users\You&gt;</span> <span className="cmd-cmd">OpenKrab</span> <span className="cmd-str">status</span></div>
+                <div className="cmd-out">OpenKrab v1.0.0 · Windows x64</div>
                 <div className="cmd-out">Skills loaded: 8 · Memory entries: 247</div>
                 <div className="cmd-out">Channels: telegram, whatsapp, discord</div>
               </div>
@@ -274,11 +274,11 @@ export default function Home() {
                 <span style={{ marginLeft: 8, fontSize: 12, color: "#555" }}>Windows PowerShell</span>
               </div>
               <div className="terminal-body" style={{ fontSize: 12 }}>
-                <div><span style={{ color: "#555" }}>PS&gt;</span> <span className="cmd-ps">opencrab</span> <span className="cmd-str">gateway status</span></div>
+                <div><span style={{ color: "#555" }}>PS&gt;</span> <span className="cmd-ps">OpenKrab</span> <span className="cmd-str">gateway status</span></div>
                 <div className="cmd-out">● Gateway running (pid 18432)</div>
                 <div className="cmd-out">  Uptime: 3d 14h 22m</div>
                 <div className="cmd-out">  Sessions: 1 active</div>
-                <div style={{ marginTop: 6 }}><span style={{ color: "#555" }}>PS&gt;</span> <span className="cmd-ps">opencrab</span> <span className="cmd-str">memory search</span> <span className="cmd-kw">"dentist"</span></div>
+                <div style={{ marginTop: 6 }}><span style={{ color: "#555" }}>PS&gt;</span> <span className="cmd-ps">OpenKrab</span> <span className="cmd-str">memory search</span> <span className="cmd-kw">"dentist"</span></div>
                 <div className="cmd-out">Found 2 entries:</div>
                 <div className="cmd-out">  · Dentist appt: March 14th, 2pm</div>
                 <div className="cmd-out">  · Prefers Dr. Chen (downtown)</div>
@@ -294,7 +294,7 @@ export default function Home() {
               CMD. PowerShell. Your machine. Full control.
             </h2>
             <p style={{ color: "#888", fontSize: 15, lineHeight: 1.7, marginBottom: 20 }}>
-              OpenCrab runs natively on Windows x64. No WSL required. No Mac required. 
+              OpenKrab runs natively on Windows x64. No WSL required. No Mac required. 
               Manage it with the tools you already know — <code style={{ background: "#1a1a1a", padding: "2px 6px", borderRadius: 4, color: "#9cdcfe" }}>cmd.exe</code> or <code style={{ background: "#1a1a1a", padding: "2px 6px", borderRadius: 4, color: "#5dbeff" }}>PowerShell</code>.
             </p>
             <div style={{ display: "flex", flexDirection: "column", gap: 12 }}>
@@ -331,9 +331,9 @@ export default function Home() {
 
         <div style={{ display: "flex", flexDirection: "column", gap: 16, alignItems: "center" }}>
           {[
-            { step: "1", label: "Install OpenCrab globally", cmd: "npm install -g opencrab" },
-            { step: "2", label: "Run setup wizard",          cmd: "opencrab setup" },
-            { step: "3", label: "Start the gateway",         cmd: "opencrab start" },
+            { step: "1", label: "Install OpenKrab globally", cmd: "npm install -g OpenKrab" },
+            { step: "2", label: "Run setup wizard",          cmd: "OpenKrab setup" },
+            { step: "3", label: "Start the gateway",         cmd: "OpenKrab start" },
           ].map(s => (
             <div key={s.step} style={{ width: "100%", maxWidth: 480, display: "flex", alignItems: "center", gap: 16 }}>
               <div style={{
@@ -351,7 +351,7 @@ export default function Home() {
         </div>
 
         <div style={{ marginTop: 48 }}>
-          <a href="https://github.com/opencrab" target="_blank" rel="noopener noreferrer" className="btn-primary" style={{ fontSize: 16, padding: "14px 32px" }}>
+          <a href="https://github.com/OpenKrab" target="_blank" rel="noopener noreferrer" className="btn-primary" style={{ fontSize: 16, padding: "14px 32px" }}>
             <Github size={18} /> Read the Docs on GitHub
           </a>
         </div>
@@ -362,19 +362,19 @@ export default function Home() {
       {/* ── FOOTER ──────────────────────────────────────────────────────── */}
       <footer style={{ maxWidth: 1120, margin: "0 auto", padding: "40px 24px", display: "flex", justifyContent: "space-between", alignItems: "center", flexWrap: "wrap", gap: 16 }}>
         <div style={{ display: "flex", alignItems: "center", gap: 10 }}>
-          <Image src="/logo.png" alt="OpenCrab" width={28} height={28} style={{ borderRadius: 5, opacity: 0.8 }} />
+          <Image src="/logo.png" alt="OpenKrab" width={28} height={28} style={{ borderRadius: 5, opacity: 0.8 }} />
           <span style={{ fontWeight: 700, fontSize: 15, letterSpacing: "-0.01em" }}>
             Open<span className="red">Crab</span>
           </span>
         </div>
         <div style={{ display: "flex", gap: 24, fontSize: 13, color: "#555" }}>
-          <a href="https://github.com/opencrab" target="_blank" rel="noopener noreferrer" style={{ color: "#555", textDecoration: "none" }}
+          <a href="https://github.com/OpenKrab" target="_blank" rel="noopener noreferrer" style={{ color: "#555", textDecoration: "none" }}
             onMouseEnter={e => (e.currentTarget.style.color = "#aaa")}
             onMouseLeave={e => (e.currentTarget.style.color = "#555")}>GitHub</a>
-          <a href="https://discord.gg/opencrab" target="_blank" rel="noopener noreferrer" style={{ color: "#555", textDecoration: "none" }}
+          <a href="https://discord.gg/OpenKrab" target="_blank" rel="noopener noreferrer" style={{ color: "#555", textDecoration: "none" }}
             onMouseEnter={e => (e.currentTarget.style.color = "#aaa")}
             onMouseLeave={e => (e.currentTarget.style.color = "#555")}>Discord</a>
-          <a href="https://github.com/opencrab/opencrab/issues" target="_blank" rel="noopener noreferrer" style={{ color: "#555", textDecoration: "none" }}
+          <a href="https://github.com/OpenKrab/OpenKrab/issues" target="_blank" rel="noopener noreferrer" style={{ color: "#555", textDecoration: "none" }}
             onMouseEnter={e => (e.currentTarget.style.color = "#aaa")}
             onMouseLeave={e => (e.currentTarget.style.color = "#555")}>Issues</a>
         </div>
